@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/labstack/echo/v4"
-	"github.com/proxoar/talk/internal/api"
-	"github.com/proxoar/talk/internal/util"
+	"github.com/legendy4141/talk/internal/api"
+	"github.com/legendy4141/talk/internal/util"
 	"github.com/r3labs/sse/v2"
 	"go.uber.org/zap"
 )

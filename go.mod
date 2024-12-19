@@ -1,4 +1,4 @@
-module github.com/proxoar/talk
+module github.com/legendy4141/talk
 
 go 1.21
 
@@ -19,7 +19,7 @@ require (
 	github.com/labstack/gommon v0.4.2
 	github.com/pablor21/echo-etag/v4 v4.0.3
 	github.com/patrickmn/go-cache v2.1.0+incompatible
-	github.com/proxoar/talk-demo-resource/v2 v2.0.4
+	github.com/legendy4141/talk-demo-resource/v2 v2.0.4
 	github.com/r3labs/sse/v2 v2.10.0
 	github.com/sashabaranov/go-openai v1.30.3
 	github.com/spf13/pflag v1.0.5

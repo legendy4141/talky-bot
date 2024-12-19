@@ -2,8 +2,8 @@ package api
 
 import (
 	"github.com/go-playground/validator/v10"
-	"github.com/proxoar/talk/pkg/ability"
-	"github.com/proxoar/talk/pkg/client"
+	"github.com/legendy4141/talk/pkg/ability"
+	"github.com/legendy4141/talk/pkg/client"
 )
 
 var RestfulValidator *validator.Validate

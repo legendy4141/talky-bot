@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/patrickmn/go-cache"
-	"github.com/proxoar/talk/pkg/ability"
+	"github.com/legendy4141/talk/pkg/ability"
 	"go.uber.org/zap"
 )
 

@@ -1,6 +1,6 @@
 package api
 
-import "github.com/proxoar/talk/pkg/client"
+import "github.com/legendy4141/talk/pkg/client"
 
 const (
 	EventMessageThinking    = "message/thinking"

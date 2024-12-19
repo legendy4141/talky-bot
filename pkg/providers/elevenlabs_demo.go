@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/dustin/go-humanize"
-	demo "github.com/proxoar/talk-demo-resource/v2"
-	"github.com/proxoar/talk/pkg/ability"
-	"github.com/proxoar/talk/pkg/client"
+	demo "github.com/legendy4141/talk-demo-resource/v2"
+	"github.com/legendy4141/talk/pkg/ability"
+	"github.com/legendy4141/talk/pkg/client"
 	"go.uber.org/zap"
 )
 

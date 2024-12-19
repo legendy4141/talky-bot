@@ -1,7 +1,7 @@
 # Use Node.js official image as base
 FROM node:20-alpine AS webBuilder
 
-# Name of a branch or a tag of proxoar/talk-web
+# Name of a branch or a tag of legendy4141/talk-web
 ARG TALK_WEB_VERSION=main
 
 ENV TALK_WEB_VERSION=${TALK_WEB_VERSION}
@@ -11,7 +11,7 @@ RUN apk update && apk add --no-cache git make
 
 # Clone the repository
 WORKDIR /app
-RUN git clone --depth 1 --branch $TALK_WEB_VERSION --single-branch https://github.com/proxoar/talk-web .
+RUN git clone --depth 1 --branch $TALK_WEB_VERSION --single-branch https://github.com/legendy4141/talk-web .
 
 # Install dependencies and build
 RUN make build

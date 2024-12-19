@@ -8,8 +8,8 @@ import (
 
 	"github.com/dustin/go-humanize"
 	"github.com/haguro/elevenlabs-go"
-	"github.com/proxoar/talk/pkg/ability"
-	"github.com/proxoar/talk/pkg/client"
+	"github.com/legendy4141/talk/pkg/ability"
+	"github.com/legendy4141/talk/pkg/client"
 	"go.uber.org/zap"
 )
 

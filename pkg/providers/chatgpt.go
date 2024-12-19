@@ -7,9 +7,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/proxoar/talk/pkg/ability"
-	"github.com/proxoar/talk/pkg/client"
-	"github.com/proxoar/talk/pkg/util"
+	"github.com/legendy4141/talk/pkg/ability"
+	"github.com/legendy4141/talk/pkg/client"
+	"github.com/legendy4141/talk/pkg/util"
 	"github.com/sashabaranov/go-openai"
 	"go.uber.org/zap"
 )

@@ -144,8 +144,8 @@ github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZN
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 h1:Jamvg5psRIccs7FGNTlIRMkT8wgtp5eCXdBlqhYGL6U=
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4/go.mod h1:xMI15A0UPsDsEKsMN9yxemIoYk6Tm2C1GtYGdfGttqA=
-github.com/proxoar/talk-demo-resource/v2 v2.0.4 h1:77SOd5lvFu2A6NaBBkBN8vrM2m1Ju59TDKSoEH73Meg=
-github.com/proxoar/talk-demo-resource/v2 v2.0.4/go.mod h1:miLN2G+CZFchlEv/521tx581GAuocy4kG2wGkg5mmb4=
+github.com/legendy4141/talk-demo-resource/v2 v2.0.4 h1:77SOd5lvFu2A6NaBBkBN8vrM2m1Ju59TDKSoEH73Meg=
+github.com/legendy4141/talk-demo-resource/v2 v2.0.4/go.mod h1:miLN2G+CZFchlEv/521tx581GAuocy4kG2wGkg5mmb4=
 github.com/r3labs/sse/v2 v2.10.0 h1:hFEkLLFY4LDifoHdiCN/LlGBAdVJYsANaLqNYa1l/v0=
 github.com/r3labs/sse/v2 v2.10.0/go.mod h1:Igau6Whc+F17QUgML1fYe1VPZzTV6EMCnYktEmkNJ7I=
 github.com/rogpeppe/go-internal v1.9.0 h1:73kH8U+JUqXU8lRuOHeVHaa/SZPifC7BkcraZVejAe8=

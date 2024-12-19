@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	"github.com/proxoar/talk/pkg/ability"
+	"github.com/legendy4141/talk/pkg/ability"
 )
 
 type TextToSpeech interface {

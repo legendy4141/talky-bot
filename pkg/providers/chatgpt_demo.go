@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	demo "github.com/proxoar/talk-demo-resource/v2"
-	"github.com/proxoar/talk/pkg/ability"
-	"github.com/proxoar/talk/pkg/client"
-	"github.com/proxoar/talk/pkg/util"
+	demo "github.com/legendy4141/talk-demo-resource/v2"
+	"github.com/legendy4141/talk/pkg/ability"
+	"github.com/legendy4141/talk/pkg/client"
+	"github.com/legendy4141/talk/pkg/util"
 	"go.uber.org/zap"
 )
 

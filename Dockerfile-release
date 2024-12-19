@@ -11,7 +11,7 @@ WORKDIR /app
 
 RUN apk update && apk add curl tar make
 
-RUN curl -LO https://github.com/proxoar/talk-web/releases/download/$WEB_VERSION/dist.tar.gz && \
+RUN curl -LO https://github.com/legendy4141/talk-web/releases/download/$WEB_VERSION/dist.tar.gz && \
           mkdir temp && \
           tar -C temp -xzf dist.tar.gz && \
           mv temp/* web/html && \

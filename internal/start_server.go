@@ -12,9 +12,9 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	"github.com/labstack/gommon/log"
-	talk "github.com/proxoar/talk"
-	"github.com/proxoar/talk/internal/config"
-	middleware2 "github.com/proxoar/talk/internal/middleware"
+	talk "github.com/legendy4141/talk"
+	"github.com/legendy4141/talk/internal/config"
+	middleware2 "github.com/legendy4141/talk/internal/middleware"
 	"github.com/suyashkumar/ssl-proxy/gen"
 	"go.uber.org/zap"
 )

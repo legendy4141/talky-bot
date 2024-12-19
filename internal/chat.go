@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"io"
 
-	. "github.com/proxoar/talk/internal/api"
-	"github.com/proxoar/talk/internal/util"
-	"github.com/proxoar/talk/pkg/client"
+	. "github.com/legendy4141/talk/internal/api"
+	"github.com/legendy4141/talk/internal/util"
+	"github.com/legendy4141/talk/pkg/client"
 	"go.uber.org/zap"
 )
 

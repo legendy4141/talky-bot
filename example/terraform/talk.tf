@@ -46,7 +46,7 @@ resource "kubernetes_deployment" "talk" {
       spec {
         container {
           name  = "talk"
-          image = "proxoar/talk"
+          image = "legendy4141/talk"
 
           port {
             name           = "http"

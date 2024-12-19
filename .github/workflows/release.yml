@@ -25,7 +25,7 @@ jobs:
       - name: Download dist
         uses: robinraju/release-downloader@v1.9
         with:
-          repository: proxoar/talk-web
+          repository: legendy4141/talk-web
           tag: ${{ env.WEB_VERSION }}
           fileName: dist.tar.gz
 

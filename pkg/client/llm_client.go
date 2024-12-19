@@ -3,8 +3,8 @@ package client
 import (
 	"context"
 
-	"github.com/proxoar/talk/pkg/ability"
-	"github.com/proxoar/talk/pkg/util"
+	"github.com/legendy4141/talk/pkg/ability"
+	"github.com/legendy4141/talk/pkg/util"
 )
 
 type LLM interface {

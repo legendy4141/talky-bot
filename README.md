@@ -6,7 +6,7 @@ Since 2023, many apps have come out and offer a better user experience than this
 Talk is a single-page application crafted to converse with AI using voice, replicating the user experience akin to a
 native app.
 
-**[Demo](https://talk.proxoar.com)**  (No registration or login needed. Simply start conversing. For an optimal
+**[Demo](https://talk.legendy4141.com)**  (No registration or login needed. Simply start conversing. For an optimal
 experience, open in Chrome)
 
 ![figjam-talk-2023-09-22.png](doc/figjam-talk-2023-09-22.png)
@@ -69,7 +69,7 @@ to [talk.google.example.yaml](example/talk.google.example.yaml) for more informa
 ### Docker
 
 ```shell
-docker run -it -v ./talk.yaml:/etc/talk/talk.yaml -p 8000:8000 proxoar/talk
+docker run -it -v ./talk.yaml:/etc/talk/talk.yaml -p 8000:8000 legendy4141/talk
 ```
 
 ### Terraform
@@ -80,11 +80,11 @@ Refer to [terraform](example/terraform). The same applies to Kubernetes.
 
 ```shell
 # clone projects
-git clone https://github.com/proxoar/talk.git proxoar/talk
-git clone https://github.com/proxoar/talk-web.git proxoar/talk-web
+git clone https://github.com/legendy4141/talk.git legendy4141/talk
+git clone https://github.com/legendy4141/talk-web.git legendy4141/talk-web
 
 # build web with yarn and copy; currently using node v20.3.0 
-cd proxoar/talk-web && make copy
+cd legendy4141/talk-web && make copy
 
 # build backend
 cd ../talk && make build
@@ -106,7 +106,7 @@ service providers occurs via HTTPS, simply employ `HTTPS_PROXY`.
 docker run -it -v ./talk.yaml:/etc/talk/talk.yaml \
 -e HTTPS_PROXY=http://192.168.1.105:7890 \
 -p 8000:8000 \
-proxoar/talk
+legendy4141/talk
 ```
 
 ### Log level
@@ -120,7 +120,7 @@ LOG_LEVEL=debug ./talk
 
 ### HTTPS
 
-`proxoar/talk` offers three methods for enabling HTTPS.
+`legendy4141/talk` offers three methods for enabling HTTPS.
 
 #### 1. Generate self-signed cert on the fly
 

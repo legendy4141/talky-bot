@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"github.com/proxoar/talk/internal/api"
-	"github.com/proxoar/talk/internal/middleware"
+	"github.com/legendy4141/talk/internal/api"
+	"github.com/legendy4141/talk/internal/middleware"
 	"github.com/tidwall/pretty"
 	"go.uber.org/zap"
 )

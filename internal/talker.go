@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	demo "github.com/proxoar/talk-demo-resource/v2"
-	"github.com/proxoar/talk/internal/config"
-	"github.com/proxoar/talk/pkg/ability"
-	"github.com/proxoar/talk/pkg/client"
-	"github.com/proxoar/talk/pkg/providers"
+	demo "github.com/legendy4141/talk-demo-resource/v2"
+	"github.com/legendy4141/talk/internal/config"
+	"github.com/legendy4141/talk/pkg/ability"
+	"github.com/legendy4141/talk/pkg/client"
+	"github.com/legendy4141/talk/pkg/providers"
 	"go.uber.org/zap"
 )
 
